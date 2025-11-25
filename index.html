@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SmartFix Studio Homepage</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+ <!-- HEADER -->
+    <header class="navbar">
+        <div class="logo">SmartFix Studio</div>
+     <a href="https://www.youtube.com/@shivayStudio120?sub_confirmation=1" 
+   target="_blank" 
+   class="login-btn">
+   Subscribe
+</a>
+
+
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1 class="title">✨ Posters. Audio. Systems. All in one place.</h1>
+            <p class="subtitle">
+                Your one-stop solution for creative poster designs,
+                <br> immersive audio production, and user-friendly digital systems. </p>
+          <div class="buttons">
+    <!-- Scroll to contact section -->
+    <a href="#contact-section" class="btn-outline">Contact Us!</a>
+
+    <!-- Opens default email client -->
+   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shivayilybarnabas@gmail.com&su=Sign%20Up&body=Hello%2C%20I%20want%20to%20sign%20up!" 
+   target="_blank" 
+   class="btn-filled">
+   SIGN UP
+</a>
+
+
+</div>
+
+        </div>
+        <div class="hero-img">
+            <img src="/images/11.jpg" alt="Robot Fixer">
+        </div>
+    </section>
+<!-- ============================= ABOUT US SECTION============================= -->
+
+  <section class="about-section">
+    <div class="about-left">
+      <h2 class="about-title">ABOUT US</h2>
+      <h3 class="about-heading">Create. Inspire. Innovate.</h3>
+      <p class="about-text">
+       <b>SmartFix Studio is a creative hub where design, sound, and technology come together.
+We specialize in producing eye-catching posters, high-quality audio tracks, and simple, user-friendly digital systems that help people learn, create, and stay inspired.</b>
+      </p>
+      <p class="about-text">
+        Our mission is to deliver reliable and affordable services while building
+        long‑lasting relationships with our clients.
+      </p>
+    </div>
+
+    <div class="about-right">
+      <!-- PLACE YOUR PHOTO HERE -->
+      <div class="photo-frame">
+        <img src="/images/23.jpg" alt="About Image" />
+      </div>
+    </div>
+  </section>
+
+<!-- =============================SERVICES SECTION============================ -->
+<section class="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Poster Design</h3>
+                <p>Creative and eye-catching poster designs for any occasion, ready for download and use.</p>
+            </div>
+            <div class="card">
+                <h3>Audio Production</h3>
+                <p>Immersive audio tracks and music to complement your creative projects and presentations.</p>
+            </div>
+            <div class="card">
+                <h3>UI/UX Designs</h3>
+                <p>High-quality UI/UX designs to create intuitive and engaging digital experiences for our users.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =============================PORTFOLIO SECTION=========================== -->
+<section class="portfolio">
+    <div class="container">
+        <h2>Our Portfolio</h2>
+
+        <div class="portfolio-grid">
+<!-- Video 1 -->
+<div class="portfolio-item">
+    <iframe 
+        src="https://www.youtube.com/embed/18_a0mzKXUY"
+        title="YouTube video"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!-- Video 2 -->
+<div class="portfolio-item">
+    <iframe 
+        src="https://www.youtube.com/embed/4jc0OxfdOAg"
+        title="YouTube video"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!-- Video 3 -->
+<div class="portfolio-item">
+    <iframe 
+        src="https://www.youtube.com/embed/ePIaOESAD5A"
+        title="YouTube video"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</div>
+</div>
+</section>
+
+
+<!-- =============================CONTACT SECTION============================ -->
+ <section id="contact-section" class="contact-section">
+
+  
+  <div class="contact-left">
+    <h2>Contact Us</h2>
+    <p>
+      We'd love to hear from you! Whether you have a question about our
+      services, pricing, or anything else, our team is ready to help.
+    </p>
+
+   <form id="contact-form">
+  <input type="text" name="name" placeholder="Type your name" required />
+  <select name="reason" required>
+    <option value="">Select a reason</option>
+    <option>General Inquiry</option>
+    <option>Booking Services</option>
+    <option>Collaboration</option>
+    <option>Feedback</option>
+  </select>
+  <textarea name="message" placeholder="Type your message" required></textarea>
+  <button type="submit" class="btn-filled">Send Message →</button>
+</form>
+
+<script>
+const form = document.getElementById("contact-form");
+form.addEventListener("submit", e => {
+    e.preventDefault();
+    const data = new FormData(form);
+    
+    fetch("https://script.google.com/macros/s/AKfycbxwg1oAGZ_mCBjLYIszpKYbAyMDr83vjDrNZKgr9uU9xletFMKVsOP5XnznYygs9coj/exec", {
+        method: "POST",
+        body: data
+    })
+    .then(response => response.json())
+    .then(res => {
+        if(res.result === "success"){
+            alert("Message sent! Thank you.We Shall Respond within 24 Hours.");
+            form.reset();
+        } else {
+            alert("Error! Please try again.");
+        }
+    })
+    .catch(err => alert("Error! Please try again."));
+});
+</script>
+
+  </div>
+  
+
+  <div class="contact-right">
+    <div class="contact-image">
+      <img src="images/o.jpg" alt="Decor Image">
+      <!-- Replace with your real image path -->
+    </div>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
