@@ -10,7 +10,7 @@
 /* BODY */
 body {
     font-family: "Poppins", sans-serif;
-    background-image: Url("../images/11.jpg");
+    background-image: Url("images/11.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -734,6 +734,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
