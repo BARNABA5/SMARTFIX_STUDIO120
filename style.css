@@ -6,9 +6,17 @@
 }
 
 /* BODY */
+
+/* BODY */
 body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(180deg, #0b0014, #150017, #1c0024);
+    background-image: Url("images/11.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
     color: #fff;
 }
 
@@ -726,3 +734,4 @@ body {
         margin: 0 auto;
     }
 }
+
