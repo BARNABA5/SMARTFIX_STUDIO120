@@ -700,7 +700,7 @@ body {
 
 .contact-image img {
     width: 100%;
-    max-width: 380px;
+    max-width: 320px;
     border-radius: 20px;
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
     object-fit: cover;
@@ -734,6 +734,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
