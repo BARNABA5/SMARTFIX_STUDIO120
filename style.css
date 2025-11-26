@@ -201,7 +201,6 @@ body {
 
 /* ================================ABOUT SECTION====================================== */
 
-.about-section {
   background: linear-gradient(to bottom, #111, #1a1a1a);
   color: #fff;
   padding: 80px 10%;
@@ -238,7 +237,7 @@ body {
 
 .stat h3 {
   font-size: 32px;
-  color: #ff9f0a;
+  color: #fdce34;
   margin: 0;
 }
 
@@ -249,7 +248,7 @@ body {
 
 .btn-explore {
   padding: 12px 30px;
-  background: #ff9f0a;
+  background: #580db9;
   color: #111;
   border: none;
   text-decoration: none;
@@ -259,15 +258,12 @@ body {
 }
 
 .btn-explore:hover {
-  background: #ffa82e;
+  background: #fd3cfd;
 }
+
 .about-img img {
-  width: 250px;   /* smaller than 350px */
+  width: 350px;
   border-radius: 15px;
-}
-.about-img {
-  margin-top: 20px;   /* space above/below image */
-  margin-right: 20px; /* space between image and text/buttons if side by side */
 }
 
 
@@ -722,6 +718,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
