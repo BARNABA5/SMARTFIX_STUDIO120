@@ -396,7 +396,7 @@ body {
 /* =======================/* ======= PORTFOLIO SECTION ======= */
 .portfolio {
     padding: 60px 0;
-    background-image: url("images/u.jpg");
+    background-image: url("images/m.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -722,6 +722,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
