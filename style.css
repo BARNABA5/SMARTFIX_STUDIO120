@@ -262,7 +262,7 @@ body {
   background: #ffa82e;
 }
 .about-img img {
-  width: 200px;   /* smaller than 350px */
+  width: 250px;   /* smaller than 350px */
   border-radius: 15px;
 }
 .about-img {
@@ -722,6 +722,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
