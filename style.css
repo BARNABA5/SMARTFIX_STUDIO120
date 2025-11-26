@@ -262,7 +262,7 @@ body {
 }
 
 .about-img img {
-  width: 350px;
+  width: 250px;
   border-radius: 15px;
 }
 
@@ -719,6 +719,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
