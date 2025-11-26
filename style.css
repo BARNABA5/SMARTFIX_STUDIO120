@@ -261,10 +261,13 @@ body {
 .btn-explore:hover {
   background: #ffa82e;
 }
-
 .about-img img {
-  width: 350px;
+  width: 250px;   /* smaller than 350px */
   border-radius: 15px;
+}
+.about-img {
+  margin-top: 20px;   /* space above/below image */
+  margin-right: 20px; /* space between image and text/buttons if side by side */
 }
 
 
@@ -719,6 +722,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
