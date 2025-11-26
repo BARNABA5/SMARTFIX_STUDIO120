@@ -201,10 +201,6 @@ body {
 
 /* ================================ABOUT SECTION====================================== */
 
-  background: linear-gradient(to bottom, #111, #1a1a1a);
-  color: #fff;
-  padding: 80px 10%;
-}
 .about-container {
   display: flex;
   align-items: center;
@@ -237,7 +233,7 @@ body {
 
 .stat h3 {
   font-size: 32px;
-  color: #fdce34;
+  color: #ff9f0a;
   margin: 0;
 }
 
@@ -248,7 +244,7 @@ body {
 
 .btn-explore {
   padding: 12px 30px;
-  background: #580db9;
+  background: #ff9f0a;
   color: #111;
   border: none;
   text-decoration: none;
@@ -258,7 +254,12 @@ body {
 }
 
 .btn-explore:hover {
-  background: #fd3cfd;
+  background: #ffa82e;
+}
+
+.about-img img {
+  width: 350px;
+  border-radius: 15px;
 }
 
 .about-img img {
@@ -718,6 +719,7 @@ body {
         margin: 0 auto;
     }
 }
+
 
 
 
