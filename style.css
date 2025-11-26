@@ -200,12 +200,12 @@ body {
 }
 
 /* ================================ABOUT SECTION====================================== */
-about-section {
+
+.about-section {
   background: linear-gradient(to bottom, #111, #1a1a1a);
   color: #fff;
   padding: 80px 10%;
 }
-
 .about-container {
   display: flex;
   align-items: center;
@@ -266,6 +266,7 @@ about-section {
   width: 350px;
   border-radius: 15px;
 }
+
 
 /* ===================================SERVICES  SECTION======================================*/
 .services {
@@ -718,6 +719,7 @@ about-section {
         margin: 0 auto;
     }
 }
+
 
 
 
