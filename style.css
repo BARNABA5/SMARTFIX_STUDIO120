@@ -200,6 +200,10 @@ body {
 }
 
 /* ================================ABOUT SECTION====================================== */
+.about-text h1 {
+  color: #e60000;
+}
+
 .about-section {
   background: linear-gradient(to bottom, #111, #1a1a1a);
   color: #fff;
@@ -836,6 +840,7 @@ body {
   font-size: 14px;
   opacity: 0.9;
 }
+
 
 
 
