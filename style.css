@@ -318,6 +318,17 @@ body {
   }
 }
 
+.points {
+  margin-top: 15px;
+  line-height: 1.7;
+  list-style: none;
+  padding: 0;
+}
+
+.points li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
 
 
 
@@ -840,6 +851,7 @@ body {
   font-size: 14px;
   opacity: 0.9;
 }
+
 
 
 
