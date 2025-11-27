@@ -264,7 +264,56 @@ body {
 .about-img img {
   width: 250px;
   border-radius: 15px;
+}.about-section {
+  background: linear-gradient(to bottom, #111, #1a1a1a);
+  color: #fff;
+  padding: 80px 10%;
 }
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px; /* Adds space between text and image */
+  flex-wrap: wrap; /* Allows them to move below each other on small screens */
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-img img {
+  width: 350px;  /* Make the image smaller */
+  border-radius: 15px;
+  object-fit: cover;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+/* Button styling improvement */
+.btn-explore {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #e60000;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img img {
+    width: 280px;
+    margin-top: 20px;
+  }
+}
+
 
 
 
@@ -787,6 +836,7 @@ body {
   font-size: 14px;
   opacity: 0.9;
 }
+
 
 
 
