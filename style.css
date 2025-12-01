@@ -851,8 +851,21 @@ body {
   font-size: 14px;
   opacity: 0.9;
 }
+.btn-system {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #4b6cb7; /* Blue shade */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
 
-
+.btn-system:hover {
+  background: #182848; /* Darker shade on hover */
+}
 
 
 
